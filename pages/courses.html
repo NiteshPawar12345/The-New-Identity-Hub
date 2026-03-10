@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses & Registration - New Identity Hub</title>
+    <meta name="description"
+        content="Flexible, practical courses for your personal transformation at the New Identity Hub.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Sticky Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">
+                <span class="logo-accent">New Identity</span> Hub
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <nav class="nav-menu">
+                <a href="../index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About Us</a>
+                <div class="dropdown">
+                    <button class="dropbtn">Programs <i class="chevron-down"></i></button>
+                    <div class="dropdown-content">
+                        <a href="self-discovery.html">Self-Discovery Suite</a>
+                        <a href="entrepreneurship.html">Entrepreneurship Lab</a>
+                        <a href="home-harmony.html">Home & Harmony</a>
+                    </div>
+                </div>
+                <a href="sisterhood.html" class="nav-link">The Sisterhood</a>
+                <a href="courses.html" class="btn btn-primary nav-btn active">Courses & Registration</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header slide-up"
+        style="padding: 120px 0 60px; background: var(--bg-light); text-align: center;">
+        <div class="container">
+            <h1 class="hero-title">Courses & <span class="highlight">Registration</span></h1>
+            <p class="hero-subtitle">Flexible Training for Real Women with Real Responsibilities</p>
+        </div>
+    </section>
+
+    <!-- Detail Section -->
+    <section class="detail-section section fade-in">
+        <div class="container text-center max-w-800 mx-auto">
+            <p class="section-desc mb-4">
+                We understand the demands of home and family, which is why our courses are flexible, practical, and easy
+                to follow. Delivered through online live sessions along with recorded access, the programs allow you to
+                learn at your own pace and convenience.
+            </p>
+            <p class="section-desc">
+                Every module includes real-life examples and practical assignments so that learning translates directly
+                into action and results. Whether you are starting from scratch or building on existing skills, we meet
+                you where you are and guide you forward with clarity and structure.
+            </p>
+        </div>
+    </section>
+
+    <!-- Paths Section -->
+    <section class="paths section bg-light fade-in">
+        <div class="container">
+            <div class="grid-3" style="grid-template-columns: repeat(2, 1fr);">
+                <div class="glass-card hover-up p-8 text-center" style="border-top: 5px solid var(--primary);">
+                    <div class="card-icon mx-auto">🌱</div>
+                    <h3 class="section-title text-primary-dark" style="font-size: 1.8rem;">Path 1: Enrol to Get Trained
+                    </h3>
+                    <p class="section-desc mb-4"><strong>Begin your personal transformation</strong></p>
+                    <p class="text-sm text-left mb-6">
+                        This path is for women who want to learn, evolve, and build a strong foundation for their own
+                        growth. Step into a structured learning journey focused on mindset, confidence, skills, income
+                        readiness, and life balance.
+                    </p>
+                    <a href="#register-form" class="btn btn-outline w-full justify-center">Select Path 1</a>
+                </div>
+                <div class="glass-card hover-up p-8 text-center"
+                    style="border-top: 5px solid var(--accent); animation-delay: 0.2s;">
+                    <div class="card-icon mx-auto">🤝</div>
+                    <h3 class="section-title text-primary-dark" style="font-size: 1.8rem;">Path 2: Enrol to Train &
+                        Contribute</h3>
+                    <p class="section-desc mb-4"><strong>Grow yourself, then empower others</strong></p>
+                    <p class="text-sm text-left mb-6">
+                        This path is for women who feel a deeper calling—to learn, lead, and give back. Become a
+                        facilitator, mentor, or community leader. Build advanced skills while creating social impact and
+                        strengthening families.
+                    </p>
+                    <a href="#register-form" class="btn btn-outline w-full justify-center text-accent"
+                        style="border-color: var(--accent);">Select Path 2</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Registration Form Section -->
+    <section class="registration section slide-up" id="register-form">
+        <div class="container">
+            <div class="glass-card p-8 max-w-800 mx-auto">
+                <h2 class="section-title text-center">Register Now</h2>
+                <p class="text-center text-muted mb-8">Take the first step towards your new identity. Fill out the form
+                    below to register your interest.</p>
+
+                <form action="#" method="POST" class="form-grid">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-bottom: 1.5rem;">
+                        <div class="form-group">
+                            <label for="firstName"
+                                style="display: block; margin-bottom: 0.5rem; font-weight: 500;">First Name *</label>
+                            <input type="text" id="firstName" name="firstName" required
+                                style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit;">
+                        </div>
+                        <div class="form-group">
+                            <label for="lastName" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Last
+                                Name</label>
+                            <input type="text" id="lastName" name="lastName"
+                                style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit;">
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="email" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Email
+                            Address *</label>
+                        <input type="email" id="email" name="email" required
+                            style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="phone" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Phone Number
+                            (WhatsApp) *</label>
+                        <input type="tel" id="phone" name="phone" required
+                            style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 1.5rem;">
+                        <label for="path" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Select
+                            Enrollment Path *</label>
+                        <select id="path" name="path" required
+                            style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit; background: var(--white);">
+                            <option value="" disabled selected>Please select an option</option>
+                            <option value="path1">Path 1: Enrol to Get Trained</option>
+                            <option value="path2">Path 2: Enrol to Train & Contribute</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 2rem;">
+                        <label for="message" style="display: block; margin-bottom: 0.5rem; font-weight: 500;">Anything
+                            else you'd like us to know?</label>
+                        <textarea id="message" name="message" rows="4"
+                            style="width: 100%; padding: 0.75rem; border: 1px solid var(--text-muted); border-radius: var(--radius-sm); font-family: inherit; resize: vertical;"></textarea>
+                    </div>
+                    <div class="text-center">
+                        <button type="submit" class="btn btn-primary btn-lg shadow-glow w-full"
+                            style="width: 100%;">Submit Registration</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <!-- Footer Content -->
+            <div class="footer-bottom">
+                <p>&copy; 2026 New Identity Hub. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"></script>
+</body>
+
+</html>
